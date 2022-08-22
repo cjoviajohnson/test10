@@ -4,12 +4,15 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html{
+    width:100%;
+}
 .container{
     position: absolute;
     top:0; left: -20px;
     z-index: -1;
     height: 100%;
-    width: 1220px;
+    min-width: 100%;
     object-fit: cover;
   }
 
@@ -18,7 +21,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120%;
+    min-width: 102%;
     overflow-y: hidden;
 }
 
@@ -179,7 +182,7 @@ section{
     font-size: 27px;
     text-align: center;
     color: white;
-}
+}edi
 .card1 h4{
     font-size: 20px;
     font-family: monospace;
@@ -200,7 +203,7 @@ section{
     font-family: monospace;
     color: rgb(250, 236, 236);
 }
-@media only screen and (max-width:700px){
+@media only screen and (min-device-width:400px){
     .one h1{
         font-size: 45px;
     }
