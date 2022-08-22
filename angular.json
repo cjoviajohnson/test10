@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "The delighted abode": {
+    "BlogApp-using-Mean": {
       "projectType": "application",
       "schematics": {},
       "root": "",
