@@ -1,6 +1,6 @@
 
 .bg-light{
-    background-color: #fff !important;
+    background-color: rgb(252, 252, 252) !important;
 }
 .navbar-expand-lg .navbar-nav{
     margin-right: 50px !important;
@@ -9,8 +9,16 @@
 
 
 }
+.heading span{
+    font-size: 3.5rem;
+    background:rgba(252, 168, 14, 0.2);
+    color:orange;
+    border-radius: .5rem;
+    padding:.2rem 1rem;
+  }
+  
 .navbar-brand{
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight:500;
 }
 .navbar-nav .nav-item{
